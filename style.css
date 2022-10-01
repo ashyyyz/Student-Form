@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(186, 239, 221);
+}
+
+h1{
+    color: rgb(70, 62, 78);
+    text-align: center;
+}
+input{
+    margin-right: 30px;
+}
+image{
+    width: 1%;
+    height: 1%;
+}
+first{
+    background-image: url(../images/th.jfif);
+    background-repeat: no repeat;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+}

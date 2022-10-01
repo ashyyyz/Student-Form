@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/th.jfif">
+    <title>Student Form</title>
+</head>
+<body>
+    <div class="first"></div>
+    <div>
+    <h1>Student Information</h1>
+    <h3>General Details:</h3>
+    <form action="ashiagarwal551@gmail.com" target="_blank">
+        <p>First Name:<input type="text" name="fname">
+        Last Name:<input type="text" name="lname"><br><br>
+        Date Of Birth:<input type="date" name="DOB"><br><br>
+        Gender: <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="Male"><br><br>
+        Email:
+        <input type="email" name="Email" value="email">
+        <br><br>
+        City:<select name="City">
+            <option value="Select">--select--</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Noida">Noida</option>
+            <option value="Vasundra">Vasundra</option>
+            <option value="Indrapuram">Indrapuram</option>
+            <option value="Govindpuram">Govindpuram</option>
+        </select></p>
+        <hr>
+        <h3>XII Details:</h3>
+        <p><b>XII Subjects:</b>
+        Physics<input type="checkbox" id="subject1" name="subject1" value="Physics">
+        Chemistry<input type="checkbox" id="subject2" name="subject1" value="Chemistry">
+        Maths<input type="checkbox" id="subject1" name="subject1" value="Maths">
+        Biology<input type="checkbox" id="subject1" name="subject1" value="Biology">
+        Computer Science<input type="checkbox" id="subject1" name="subject1" value="Computer Science">
+        Hindi<input type="checkbox" id="subject1" name="subject1" value="Hindi">
+        English<input type="checkbox" id="subject1" name="subject1" value="English">
+        <br><br>
+        Percentage:<input type="number" name="Percentage" value="" min="1" max="100"> 
+        <br><br>
+        Enter your Marksheet
+        <input type="file" name="file" value="select" required><br><br></p>
+        <hr>
+        <p>Create Your Password:<br>
+        Password:<input type="password" name="password"><br>
+        </p>
+        <input type="submit" value="submit">
+
+    </form>
+</div>
+</body>
+</html>
